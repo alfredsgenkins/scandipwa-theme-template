@@ -1,0 +1,3 @@
+[submodule "vendor/scandipwa/source"]
+	path = vendor/scandipwa/source
+	url = git@github.com:scandipwa/base-theme.git
