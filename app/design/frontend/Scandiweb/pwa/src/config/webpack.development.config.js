@@ -27,7 +27,8 @@ const BabelConfig = require('./babel.config');
 const FallbackPlugin = require('./FallbackPlugin');
 
 const projectRoot = path.resolve(__dirname, '..', '..');
-const fallbackRoot = path.resolve(projectRoot, '..', 'base-theme');
+const magentoRoot = path.resolve(projectRoot, '..', '..', '..', '..', '..');
+const fallbackRoot = path.resolve(magentoRoot, 'vendor', 'scandipwa', 'source');
 
 module.exports = {
     resolve: {
